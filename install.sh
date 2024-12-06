@@ -10,7 +10,7 @@ REPO_NAME=$(basename "$(git rev-parse --show-toplevel)")
 PYTHON_FILE=$(find . -maxdepth 1 -name "*.py" | head -n 1)
 
 # Check if a Python file was found
-if [ -z "$badnam.py" ]; then
+if [ -z "$m.py" ]; then
     echo "No Python files found in the repository."
     exit 1
 fi
